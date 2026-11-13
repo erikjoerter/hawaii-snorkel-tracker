@@ -7,205 +7,207 @@
   <meta name="Generator" content="Cocoa HTML Writer">
   <meta name="CocoaVersion" content="2685.7">
   <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px 'Courier New'; -webkit-text-stroke: #000000}
-    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; -webkit-text-stroke: #000000; min-height: 14.0px}
-    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Helvetica Neue'; -webkit-text-stroke: #000000}
-    p.p4 {margin: 0.0px 0.0px 16.0px 0.0px; font: 14.0px 'Courier New'; -webkit-text-stroke: #000000}
-    p.p5 {margin: 0.0px 0.0px 16.0px 0.0px; font: 16.0px 'Helvetica Neue'; -webkit-text-stroke: #000000}
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 20.0px 'Helvetica Neue'; -webkit-text-stroke: #000000}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px 'Courier New'; -webkit-text-stroke: #000000}
+    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; -webkit-text-stroke: #000000; min-height: 14.0px}
+    p.p4 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Helvetica Neue'; -webkit-text-stroke: #000000}
+    p.p5 {margin: 0.0px 0.0px 16.0px 0.0px; font: 14.0px 'Courier New'; -webkit-text-stroke: #000000}
+    p.p6 {margin: 0.0px 0.0px 16.0px 0.0px; font: 16.0px 'Helvetica Neue'; -webkit-text-stroke: #000000}
     span.s1 {font-kerning: none}
     span.s2 {font: 16.0px 'Helvetica Neue'; font-kerning: none}
   </style>
 </head>
 <body>
-<p class="p1"><span class="s1">&lt;!DOCTYPE html&gt;</span></p>
-<p class="p1"><span class="s1">&lt;html lang="en"&gt;</span></p>
-<p class="p1"><span class="s1">&lt;head&gt;</span></p>
-<p class="p1"><span class="s1">    &lt;meta charset="UTF-8"&gt;</span></p>
-<p class="p1"><span class="s1">    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</span></p>
-<p class="p1"><span class="s1">    &lt;title&gt;Hawaii Snorkel Buddy - Real-Time Conditions&lt;/title&gt;</span></p>
-<p class="p1"><span class="s1">    &lt;!-- Tailwind CSS for styling --&gt;</span></p>
-<p class="p1"><span class="s1">    &lt;script src="https://jsdelivr.net"&gt;&lt;/script&gt;</span></p>
-<p class="p1"><span class="s1">    &lt;!-- Lucide Icons for clean visuals --&gt;</span></p>
-<p class="p1"><span class="s1">    &lt;script src="https://unpkg.com"&gt;&lt;/script&gt;</span></p>
-<p class="p1"><span class="s1">&lt;/head&gt;</span></p>
-<p class="p1"><span class="s1">&lt;body class="bg-slate-50 text-slate-800 font-sans"&gt;</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1">    &lt;!-- Navbar --&gt;</span></p>
-<p class="p1"><span class="s1">    &lt;nav class="bg-cyan-600 text-white p-4 shadow-md"&gt;</span></p>
-<p class="p1"><span class="s1">        &lt;div class="max-w-4xl mx-auto flex justify-between items-center"&gt;</span></p>
-<p class="p1"><span class="s1">            &lt;h1 class="text-xl font-bold flex items-center gap-2"&gt;</span></p>
-<p class="p1"><span class="s1">                🤿 Hawaii Snorkel Buddy</span></p>
-<p class="p1"><span class="s1">            &lt;/h1&gt;</span></p>
-<p class="p1"><span class="s1">            &lt;span class="text-sm bg-cyan-700 px-3 py-1 rounded-full animate-pulse"&gt;Live Marine Data&lt;/span&gt;</span></p>
-<p class="p1"><span class="s1">        &lt;/div&gt;</span></p>
-<p class="p1"><span class="s1">    &lt;/nav&gt;</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1">    &lt;!-- Main Content --&gt;</span></p>
-<p class="p1"><span class="s1">    &lt;main class="max-w-4xl mx-auto p-4 mt-6"&gt;</span></p>
-<p class="p1"><span class="s1">        </span></p>
-<p class="p1"><span class="s1">        &lt;!-- Intro &amp; Disclaimer --&gt;</span></p>
-<p class="p1"><span class="s1">        &lt;div class="bg-amber-50 border-l-4 border-amber-500 p-4 rounded-r-md mb-6 shadow-sm"&gt;</span></p>
-<p class="p1"><span class="s1">            &lt;p class="text-sm text-amber-900 font-medium"&gt;</span></p>
-<p class="p1"><span class="s1">                ⚠️ **Safety First:** Ocean conditions change rapidly. Never snorkel alone, and when in doubt, don't go out. Always consult local lifeguards.</span></p>
-<p class="p1"><span class="s1">            &lt;/p&gt;</span></p>
-<p class="p1"><span class="s1">        &lt;/div&gt;</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1">        &lt;!-- Spot Selector --&gt;</span></p>
-<p class="p1"><span class="s1">        &lt;div class="bg-white p-6 rounded-xl shadow-md mb-6"&gt;</span></p>
-<p class="p1"><span class="s1">            &lt;label for="spot-select" class="block text-sm font-semibold text-slate-600 uppercase tracking-wider mb-2"&gt;Select Snorkel Spot&lt;/label&gt;</span></p>
-<p class="p1"><span class="s1">            &lt;select id="spot-select" class="w-full bg-slate-100 border border-slate-300 rounded-lg p-3 text-lg font-medium focus:outline-none focus:ring-2 focus:ring-cyan-500"&gt;</span></p>
-<p class="p1"><span class="s1">                &lt;option value="hanauma" data-lat="21.2755" data-lng="-157.6948"&gt;Oahu: Hanauma Bay (South Shore)&lt;/option&gt;</span></p>
-<p class="p1"><span class="s1">                &lt;option value="sharks" data-lat="21.6521" data-lng="-158.0622"&gt;Oahu: Shark's Cove (North Shore - Summer Only)&lt;/option&gt;</span></p>
-<p class="p1"><span class="s1">                &lt;option value="molokini" data-lat="20.6319" data-lng="-156.4950"&gt;Maui: Molokini Crater&lt;/option&gt;</span></p>
-<p class="p1"><span class="s1">                &lt;option value="kahaluu" data-lat="19.5794" data-lng="-155.9669"&gt;Big Island: Kahalu'u Beach Park&lt;/option&gt;</span></p>
-<p class="p1"><span class="s1">                &lt;option value="tunnels" data-lat="22.2233" data-lng="-159.5631"&gt;Kauai: Tunnels Beach&lt;/option&gt;</span></p>
-<p class="p1"><span class="s1">            &lt;/select&gt;</span></p>
-<p class="p1"><span class="s1">        &lt;/div&gt;</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1">        &lt;!-- Dynamic Status Card --&gt;</span></p>
-<p class="p1"><span class="s1">        &lt;div id="status-card" class="bg-white rounded-xl shadow-md overflow-hidden transition-all duration-300"&gt;</span></p>
-<p class="p1"><span class="s1">            &lt;!-- Header Status Bar (Changes color based on condition) --&gt;</span></p>
-<p class="p1"><span class="s1">            &lt;div id="status-banner" class="bg-slate-400 text-white p-6 text-center transition-colors duration-300"&gt;</span></p>
-<p class="p1"><span class="s1">                &lt;h2 id="spot-title" class="text-2xl font-bold mb-1"&gt;Loading Spot Data...&lt;/h2&gt;</span></p>
-<p class="p1"><span class="s1">                &lt;div id="status-text" class="text-xl font-extrabold uppercase tracking-widest mt-2"&gt;Checking Conditions...&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1">            &lt;/div&gt;</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1">            &lt;!-- Detailed Metrics Grid --&gt;</span></p>
-<p class="p1"><span class="s1">            &lt;div class="p-6 grid grid-cols-1 md:grid-cols-3 gap-6 bg-white"&gt;</span></p>
-<p class="p1"><span class="s1">                &lt;!-- Wave Height --&gt;</span></p>
-<p class="p1"><span class="s1">                &lt;div class="bg-slate-50 p-4 rounded-lg flex items-center gap-4 border border-slate-100"&gt;</span></p>
-<p class="p1"><span class="s1">                    &lt;div class="p-3 bg-blue-100 text-blue-600 rounded-full"&gt;</span></p>
-<p class="p1"><span class="s1">                        &lt;i data-lucide="waves"&gt;&lt;/i&gt;</span></p>
-<p class="p1"><span class="s1">                    &lt;/div&gt;</span></p>
-<p class="p1"><span class="s1">                    &lt;div&gt;</span></p>
-<p class="p1"><span class="s1">                        &lt;div class="text-xs text-slate-500 font-semibold uppercase"&gt;Wave Height&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1">                        &lt;div id="metric-waves" class="text-xl font-bold"&gt;-- ft&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1">                    &lt;/div&gt;</span></p>
-<p class="p1"><span class="s1">                &lt;/div&gt;</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1">                &lt;!-- Wind Speed --&gt;</span></p>
-<p class="p1"><span class="s1">                &lt;div class="bg-slate-50 p-4 rounded-lg flex items-center gap-4 border border-slate-100"&gt;</span></p>
-<p class="p1"><span class="s1">                    &lt;div class="p-3 bg-sky-100 text-sky-600 rounded-full"&gt;</span></p>
-<p class="p1"><span class="s1">                        &lt;i data-lucide="wind"&gt;&lt;/i&gt;</span></p>
-<p class="p1"><span class="s1">                    &lt;/div&gt;</span></p>
-<p class="p1"><span class="s1">                    &lt;div&gt;</span></p>
-<p class="p1"><span class="s1">                        &lt;div class="text-xs text-slate-500 font-semibold uppercase"&gt;Wind Speed&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1">                        &lt;div id="metric-wind" class="text-xl font-bold"&gt;-- mph&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1">                    &lt;/div&gt;</span></p>
-<p class="p1"><span class="s1">                &lt;/div&gt;</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1">                &lt;!-- Water Temp --&gt;</span></p>
-<p class="p1"><span class="s1">                &lt;div class="bg-slate-50 p-4 rounded-lg flex items-center gap-4 border border-slate-100"&gt;</span></p>
-<p class="p1"><span class="s1">                    &lt;div class="p-3 bg-thermometer-100 text-orange-500 bg-orange-50 rounded-full"&gt;</span></p>
-<p class="p1"><span class="s1">                        &lt;i data-lucide="thermometer"&gt;&lt;/i&gt;</span></p>
-<p class="p1"><span class="s1">                    &lt;/div&gt;</span></p>
-<p class="p1"><span class="s1">                    &lt;div&gt;</span></p>
-<p class="p1"><span class="s1">                        &lt;div class="text-xs text-slate-500 font-semibold uppercase"&gt;Water Temp&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1">                        &lt;div id="metric-temp" class="text-xl font-bold"&gt;-- °F&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1">                    &lt;/div&gt;</span></p>
-<p class="p1"><span class="s1">                &lt;/div&gt;</span></p>
-<p class="p1"><span class="s1">            &lt;/div&gt;</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1">            &lt;!-- AI / Logic Advice Summary --&gt;</span></p>
-<p class="p1"><span class="s1">            &lt;div class="p-6 bg-slate-50 border-t border-slate-100"&gt;</span></p>
-<p class="p1"><span class="s1">                &lt;h3 class="font-bold text-slate-700 mb-2 flex items-center gap-2"&gt;</span></p>
-<p class="p1"><span class="s1">                    &lt;i data-lucide="info" class="w-5 h-5 text-cyan-600"&gt;&lt;/i&gt; Local Advisory Note</span></p>
-<p class="p1"><span class="s1">                &lt;/h3&gt;</span></p>
-<p class="p1"><span class="s1">                &lt;p id="advice-text" class="text-slate-600 leading-relaxed"&gt;</span></p>
-<p class="p1"><span class="s1">                    Gathering local marine data to evaluate clarity, visibility, and currents...</span></p>
-<p class="p1"><span class="s1">                &lt;/p&gt;</span></p>
-<p class="p1"><span class="s1">            &lt;/div&gt;</span></p>
-<p class="p1"><span class="s1">        &lt;/div&gt;</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1">    &lt;/main&gt;</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1">    &lt;!-- Footer --&gt;</span></p>
-<p class="p1"><span class="s1">    &lt;footer class="text-center text-xs text-slate-400 mt-12 pb-8"&gt;</span></p>
-<p class="p1"><span class="s1">        Powered by Open-Meteo Marine API. Built for Hawaiian Tourist Safety.</span></p>
-<p class="p1"><span class="s1">    &lt;/footer&gt;</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1">    &lt;!-- Logic Script --&gt;</span></p>
-<p class="p1"><span class="s1">    &lt;script&gt;</span></p>
-<p class="p1"><span class="s1">        // Initialize Lucide Icons</span></p>
-<p class="p1"><span class="s1">        lucide.createIcons();</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1">        const spotSelect = document.getElementById('spot-select');</span></p>
-<p class="p1"><span class="s1">        </span></p>
-<p class="p1"><span class="s1">        // Fetch data when user changes the dropdown or loads the page</span></p>
-<p class="p1"><span class="s1">        spotSelect.addEventListener('change', fetchMarineData);</span></p>
-<p class="p1"><span class="s1">        window.addEventListener('DOMContentLoaded', fetchMarineData);</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1">        async function fetchMarineData() {</span></p>
-<p class="p1"><span class="s1">            const selectedOption = spotSelect.options[spotSelect.selectedIndex];</span></p>
-<p class="p1"><span class="s1">            const lat = selectedOption.getAttribute('data-lat');</span></p>
-<p class="p1"><span class="s1">            const lng = selectedOption.getAttribute('data-lng');</span></p>
-<p class="p1"><span class="s1">            const spotName = selectedOption.text;</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1">            // Reset UI State to loading</span></p>
-<p class="p1"><span class="s1">            document.getElementById('spot-title').innerText = spotName;</span></p>
-<p class="p1"><span class="s1">            document.getElementById('status-text').innerText = "Analyzing...";</span></p>
-<p class="p1"><span class="s1">            document.getElementById('status-banner').className = "bg-slate-400 text-white p-6 text-center";</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1">            try {</span></p>
-<p class="p1"><span class="s1">                // Fetch real-time wave heights and wind data from Open-Meteo Marine API</span></p>
-<p class="p1"><span class="s1">                const url = `https://open-meteo.com{lat}&amp;longitude=${lng}&amp;current=wave_height,wind_wave_height&amp;hourly=wave_height&amp;temperature_unit=fahrenheit&amp;wind_speed_unit=mph&amp;length_unit=inch`;</span></p>
-<p class="p1"><span class="s1">                </span></p>
-<p class="p1"><span class="s1">                // Fetch basic weather (wind &amp; temp) alongside marine data</span></p>
-<p class="p1"><span class="s1">                const weatherUrl = `https://open-meteo.com{lat}&amp;longitude=${lng}&amp;current=temperature_2m,wind_speed_10m&amp;temperature_unit=fahrenheit&amp;wind_speed_unit=mph`;</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1">                const [marineRes, weatherRes] = await Promise.all([fetch(url), fetch(weatherUrl)]);</span></p>
-<p class="p1"><span class="s1">                const marineData = await marineRes.json();</span></p>
-<p class="p1"><span class="s1">                const weatherData = await weatherRes.json();</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1">                // Extract metrics</span></p>
-<p class="p1"><span class="s1">                const waveHeightInches = marineData.current.wave_height || 0;</span></p>
-<p class="p1"><span class="s1">                const waveHeightFeet = (waveHeightInches / 12).toFixed(1);</span></p>
-<p class="p1"><span class="s1">                const windSpeed = weatherData.current.wind_speed_10m.toFixed(1);</span></p>
-<p class="p1"><span class="s1">                const waterTemp = weatherData.current.temperature_2m.toFixed(1); // Approximated via coastal air temp for simplicity</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1">                // Update UI Metrics</span></p>
-<p class="p1"><span class="s1">                document.getElementById('metric-waves').innerText = `${waveHeightFeet} ft`;</span></p>
-<p class="p1"><span class="s1">                document.getElementById('metric-wind').innerText = `${windSpeed} mph`;</span></p>
-<p class="p1"><span class="s1">                document.getElementById('metric-temp').innerText = `${waterTemp} °F`;</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1">                // Run Safety Evaluation Algorithm</span></p>
-<p class="p1"><span class="s1">                evaluateConditions(waveHeightFeet, windSpeed);</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1">            } catch (error) {</span></p>
-<p class="p1"><span class="s1">                console.error("Error fetching data:", error);</span></p>
-<p class="p1"><span class="s1">                document.getElementById('status-text').innerText = "Data Error";</span></p>
-<p class="p1"><span class="s1">                document.getElementById('advice-text').innerText = "Failed to load real-time ocean data. Please check back later.";</span></p>
-<p class="p1"><span class="s1">            }</span></p>
-<p class="p1"><span class="s1">        }</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1">        function evaluateConditions(waves, wind) {</span></p>
-<p class="p1"><span class="s1">            const banner = document.getElementById('status-banner');</span></p>
-<p class="p1"><span class="s1">            const statusText = document.getElementById('status-text');</span></p>
-<p class="p1"><span class="s1">            const adviceText = document.getElementById('advice-text');</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1">            // CRITICAL THRESHOLDS FOR SNORKELING</span></p>
-<p class="p1"><span class="s1">            // Waves &gt; 4ft = Dangerous for snorkeling (churns sand, creates undertow)</span></p>
-<p class="p1"><span class="s1">            // Waves &gt; 2.5ft = Fair, visibility reduced</span></p>
-<p class="p1"><span class="s1">            // Wind &gt; 15mph = Choppy, surface currents strong</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1">            if (waves &gt;= 4.0 || wind &gt;= 20) {</span></p>
-<p class="p1"><span class="s1">                // DANGEROUS CONDITIONS</span></p>
-<p class="p1"><span class="s1">                banner.className = "bg-red-500 text-white p-6 text-center transition-colors duration-300";</span></p>
-<p class="p1"><span class="s1">                statusText.innerText = "🔴 POOR / DANGEROUS";</span></p>
-<p class="p1"><span class="s1">                adviceText.innerText = `High surf alert! Waves are around ${waves}ft with winds at ${wind}mph. This creates strong undertows and visibility will be near zero due to churned up sand. It is highly recommended to stay out of the water today.`;</span></p>
-<p class="p1"><span class="s1">            } else if (waves &gt;= 2.5 || wind &gt;= 13) {</span></p>
-<p class="p1"><span class="s1">                // CAUTION CONDITIONS</span></p>
-<p class="p1"><span class="s1">                banner.className = "bg-amber-500 text-white p-6 text-center transition-colors duration-300";</span></p>
-<p class="p1"><span class="s1">                statusText.innerText = "🟡 FAIR / CAUTION";</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p3"><span class="s1">Use code with caution.</span></p>
-<p class="p4"><span class="s2">adviceText.innerText = </span><span class="s1">Moderate conditions. Wave heights are ${waves}ft. Snorkeling is possible, but expect a surface chop and reduced underwater visibility. Beginners should stick very close to the shore or a lifeguard tower.</span><span class="s2">;</span></p>
-<p class="p5"><span class="s1">} else {</span></p>
-<p class="p5"><span class="s1">// IDEAL CONDITIONS</span></p>
-<p class="p5"><span class="s1">banner.className = "bg-emerald-500 text-white p-6 text-center transition-colors duration-300";</span></p>
-<p class="p5"><span class="s1">statusText.innerText = "🟢 EXCELLENT CONDITIONS";</span></p>
-<p class="p4"><span class="s2">adviceText.innerText = </span><span class="s1">Perfect day for snorkeling! Calm seas (${waves}ft) and low winds mean crystal-clear underwater visibility. Enjoy the coral reefs and marine life safely!</span><span class="s2">;</span></p>
-<p class="p5"><span class="s1">}</span></p>
-<p class="p5"><span class="s1">}</span></p>
+<p class="p1"><span class="s1">html</span></p>
+<p class="p2"><span class="s1">&lt;!DOCTYPE html&gt;</span></p>
+<p class="p2"><span class="s1">&lt;html lang="en"&gt;</span></p>
+<p class="p2"><span class="s1">&lt;head&gt;</span></p>
+<p class="p2"><span class="s1">    &lt;meta charset="UTF-8"&gt;</span></p>
+<p class="p2"><span class="s1">    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</span></p>
+<p class="p2"><span class="s1">    &lt;title&gt;Hawaii Snorkel Buddy - Real-Time Conditions&lt;/title&gt;</span></p>
+<p class="p2"><span class="s1">    &lt;!-- Tailwind CSS for styling --&gt;</span></p>
+<p class="p2"><span class="s1">    &lt;script src="https://jsdelivr.net"&gt;&lt;/script&gt;</span></p>
+<p class="p2"><span class="s1">    &lt;!-- Lucide Icons for clean visuals --&gt;</span></p>
+<p class="p2"><span class="s1">    &lt;script src="https://unpkg.com"&gt;&lt;/script&gt;</span></p>
+<p class="p2"><span class="s1">&lt;/head&gt;</span></p>
+<p class="p2"><span class="s1">&lt;body class="bg-slate-50 text-slate-800 font-sans"&gt;</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1">    &lt;!-- Navbar --&gt;</span></p>
+<p class="p2"><span class="s1">    &lt;nav class="bg-cyan-600 text-white p-4 shadow-md"&gt;</span></p>
+<p class="p2"><span class="s1">        &lt;div class="max-w-4xl mx-auto flex justify-between items-center"&gt;</span></p>
+<p class="p2"><span class="s1">            &lt;h1 class="text-xl font-bold flex items-center gap-2"&gt;</span></p>
+<p class="p2"><span class="s1">                🤿 Hawaii Snorkel Buddy</span></p>
+<p class="p2"><span class="s1">            &lt;/h1&gt;</span></p>
+<p class="p2"><span class="s1">            &lt;span class="text-sm bg-cyan-700 px-3 py-1 rounded-full animate-pulse"&gt;Live Marine Data&lt;/span&gt;</span></p>
+<p class="p2"><span class="s1">        &lt;/div&gt;</span></p>
+<p class="p2"><span class="s1">    &lt;/nav&gt;</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1">    &lt;!-- Main Content --&gt;</span></p>
+<p class="p2"><span class="s1">    &lt;main class="max-w-4xl mx-auto p-4 mt-6"&gt;</span></p>
+<p class="p2"><span class="s1">        </span></p>
+<p class="p2"><span class="s1">        &lt;!-- Intro &amp; Disclaimer --&gt;</span></p>
+<p class="p2"><span class="s1">        &lt;div class="bg-amber-50 border-l-4 border-amber-500 p-4 rounded-r-md mb-6 shadow-sm"&gt;</span></p>
+<p class="p2"><span class="s1">            &lt;p class="text-sm text-amber-900 font-medium"&gt;</span></p>
+<p class="p2"><span class="s1">                ⚠️ **Safety First:** Ocean conditions change rapidly. Never snorkel alone, and when in doubt, don't go out. Always consult local lifeguards.</span></p>
+<p class="p2"><span class="s1">            &lt;/p&gt;</span></p>
+<p class="p2"><span class="s1">        &lt;/div&gt;</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1">        &lt;!-- Spot Selector --&gt;</span></p>
+<p class="p2"><span class="s1">        &lt;div class="bg-white p-6 rounded-xl shadow-md mb-6"&gt;</span></p>
+<p class="p2"><span class="s1">            &lt;label for="spot-select" class="block text-sm font-semibold text-slate-600 uppercase tracking-wider mb-2"&gt;Select Snorkel Spot&lt;/label&gt;</span></p>
+<p class="p2"><span class="s1">            &lt;select id="spot-select" class="w-full bg-slate-100 border border-slate-300 rounded-lg p-3 text-lg font-medium focus:outline-none focus:ring-2 focus:ring-cyan-500"&gt;</span></p>
+<p class="p2"><span class="s1">                &lt;option value="hanauma" data-lat="21.2755" data-lng="-157.6948"&gt;Oahu: Hanauma Bay (South Shore)&lt;/option&gt;</span></p>
+<p class="p2"><span class="s1">                &lt;option value="sharks" data-lat="21.6521" data-lng="-158.0622"&gt;Oahu: Shark's Cove (North Shore - Summer Only)&lt;/option&gt;</span></p>
+<p class="p2"><span class="s1">                &lt;option value="molokini" data-lat="20.6319" data-lng="-156.4950"&gt;Maui: Molokini Crater&lt;/option&gt;</span></p>
+<p class="p2"><span class="s1">                &lt;option value="kahaluu" data-lat="19.5794" data-lng="-155.9669"&gt;Big Island: Kahalu'u Beach Park&lt;/option&gt;</span></p>
+<p class="p2"><span class="s1">                &lt;option value="tunnels" data-lat="22.2233" data-lng="-159.5631"&gt;Kauai: Tunnels Beach&lt;/option&gt;</span></p>
+<p class="p2"><span class="s1">            &lt;/select&gt;</span></p>
+<p class="p2"><span class="s1">        &lt;/div&gt;</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1">        &lt;!-- Dynamic Status Card --&gt;</span></p>
+<p class="p2"><span class="s1">        &lt;div id="status-card" class="bg-white rounded-xl shadow-md overflow-hidden transition-all duration-300"&gt;</span></p>
+<p class="p2"><span class="s1">            &lt;!-- Header Status Bar (Changes color based on condition) --&gt;</span></p>
+<p class="p2"><span class="s1">            &lt;div id="status-banner" class="bg-slate-400 text-white p-6 text-center transition-colors duration-300"&gt;</span></p>
+<p class="p2"><span class="s1">                &lt;h2 id="spot-title" class="text-2xl font-bold mb-1"&gt;Loading Spot Data...&lt;/h2&gt;</span></p>
+<p class="p2"><span class="s1">                &lt;div id="status-text" class="text-xl font-extrabold uppercase tracking-widest mt-2"&gt;Checking Conditions...&lt;/div&gt;</span></p>
+<p class="p2"><span class="s1">            &lt;/div&gt;</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1">            &lt;!-- Detailed Metrics Grid --&gt;</span></p>
+<p class="p2"><span class="s1">            &lt;div class="p-6 grid grid-cols-1 md:grid-cols-3 gap-6 bg-white"&gt;</span></p>
+<p class="p2"><span class="s1">                &lt;!-- Wave Height --&gt;</span></p>
+<p class="p2"><span class="s1">                &lt;div class="bg-slate-50 p-4 rounded-lg flex items-center gap-4 border border-slate-100"&gt;</span></p>
+<p class="p2"><span class="s1">                    &lt;div class="p-3 bg-blue-100 text-blue-600 rounded-full"&gt;</span></p>
+<p class="p2"><span class="s1">                        &lt;i data-lucide="waves"&gt;&lt;/i&gt;</span></p>
+<p class="p2"><span class="s1">                    &lt;/div&gt;</span></p>
+<p class="p2"><span class="s1">                    &lt;div&gt;</span></p>
+<p class="p2"><span class="s1">                        &lt;div class="text-xs text-slate-500 font-semibold uppercase"&gt;Wave Height&lt;/div&gt;</span></p>
+<p class="p2"><span class="s1">                        &lt;div id="metric-waves" class="text-xl font-bold"&gt;-- ft&lt;/div&gt;</span></p>
+<p class="p2"><span class="s1">                    &lt;/div&gt;</span></p>
+<p class="p2"><span class="s1">                &lt;/div&gt;</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1">                &lt;!-- Wind Speed --&gt;</span></p>
+<p class="p2"><span class="s1">                &lt;div class="bg-slate-50 p-4 rounded-lg flex items-center gap-4 border border-slate-100"&gt;</span></p>
+<p class="p2"><span class="s1">                    &lt;div class="p-3 bg-sky-100 text-sky-600 rounded-full"&gt;</span></p>
+<p class="p2"><span class="s1">                        &lt;i data-lucide="wind"&gt;&lt;/i&gt;</span></p>
+<p class="p2"><span class="s1">                    &lt;/div&gt;</span></p>
+<p class="p2"><span class="s1">                    &lt;div&gt;</span></p>
+<p class="p2"><span class="s1">                        &lt;div class="text-xs text-slate-500 font-semibold uppercase"&gt;Wind Speed&lt;/div&gt;</span></p>
+<p class="p2"><span class="s1">                        &lt;div id="metric-wind" class="text-xl font-bold"&gt;-- mph&lt;/div&gt;</span></p>
+<p class="p2"><span class="s1">                    &lt;/div&gt;</span></p>
+<p class="p2"><span class="s1">                &lt;/div&gt;</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1">                &lt;!-- Water Temp --&gt;</span></p>
+<p class="p2"><span class="s1">                &lt;div class="bg-slate-50 p-4 rounded-lg flex items-center gap-4 border border-slate-100"&gt;</span></p>
+<p class="p2"><span class="s1">                    &lt;div class="p-3 bg-thermometer-100 text-orange-500 bg-orange-50 rounded-full"&gt;</span></p>
+<p class="p2"><span class="s1">                        &lt;i data-lucide="thermometer"&gt;&lt;/i&gt;</span></p>
+<p class="p2"><span class="s1">                    &lt;/div&gt;</span></p>
+<p class="p2"><span class="s1">                    &lt;div&gt;</span></p>
+<p class="p2"><span class="s1">                        &lt;div class="text-xs text-slate-500 font-semibold uppercase"&gt;Water Temp&lt;/div&gt;</span></p>
+<p class="p2"><span class="s1">                        &lt;div id="metric-temp" class="text-xl font-bold"&gt;-- °F&lt;/div&gt;</span></p>
+<p class="p2"><span class="s1">                    &lt;/div&gt;</span></p>
+<p class="p2"><span class="s1">                &lt;/div&gt;</span></p>
+<p class="p2"><span class="s1">            &lt;/div&gt;</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1">            &lt;!-- AI / Logic Advice Summary --&gt;</span></p>
+<p class="p2"><span class="s1">            &lt;div class="p-6 bg-slate-50 border-t border-slate-100"&gt;</span></p>
+<p class="p2"><span class="s1">                &lt;h3 class="font-bold text-slate-700 mb-2 flex items-center gap-2"&gt;</span></p>
+<p class="p2"><span class="s1">                    &lt;i data-lucide="info" class="w-5 h-5 text-cyan-600"&gt;&lt;/i&gt; Local Advisory Note</span></p>
+<p class="p2"><span class="s1">                &lt;/h3&gt;</span></p>
+<p class="p2"><span class="s1">                &lt;p id="advice-text" class="text-slate-600 leading-relaxed"&gt;</span></p>
+<p class="p2"><span class="s1">                    Gathering local marine data to evaluate clarity, visibility, and currents...</span></p>
+<p class="p2"><span class="s1">                &lt;/p&gt;</span></p>
+<p class="p2"><span class="s1">            &lt;/div&gt;</span></p>
+<p class="p2"><span class="s1">        &lt;/div&gt;</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1">    &lt;/main&gt;</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1">    &lt;!-- Footer --&gt;</span></p>
+<p class="p2"><span class="s1">    &lt;footer class="text-center text-xs text-slate-400 mt-12 pb-8"&gt;</span></p>
+<p class="p2"><span class="s1">        Powered by Open-Meteo Marine API. Built for Hawaiian Tourist Safety.</span></p>
+<p class="p2"><span class="s1">    &lt;/footer&gt;</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1">    &lt;!-- Logic Script --&gt;</span></p>
+<p class="p2"><span class="s1">    &lt;script&gt;</span></p>
+<p class="p2"><span class="s1">        // Initialize Lucide Icons</span></p>
+<p class="p2"><span class="s1">        lucide.createIcons();</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1">        const spotSelect = document.getElementById('spot-select');</span></p>
+<p class="p2"><span class="s1">        </span></p>
+<p class="p2"><span class="s1">        // Fetch data when user changes the dropdown or loads the page</span></p>
+<p class="p2"><span class="s1">        spotSelect.addEventListener('change', fetchMarineData);</span></p>
+<p class="p2"><span class="s1">        window.addEventListener('DOMContentLoaded', fetchMarineData);</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1">        async function fetchMarineData() {</span></p>
+<p class="p2"><span class="s1">            const selectedOption = spotSelect.options[spotSelect.selectedIndex];</span></p>
+<p class="p2"><span class="s1">            const lat = selectedOption.getAttribute('data-lat');</span></p>
+<p class="p2"><span class="s1">            const lng = selectedOption.getAttribute('data-lng');</span></p>
+<p class="p2"><span class="s1">            const spotName = selectedOption.text;</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1">            // Reset UI State to loading</span></p>
+<p class="p2"><span class="s1">            document.getElementById('spot-title').innerText = spotName;</span></p>
+<p class="p2"><span class="s1">            document.getElementById('status-text').innerText = "Analyzing...";</span></p>
+<p class="p2"><span class="s1">            document.getElementById('status-banner').className = "bg-slate-400 text-white p-6 text-center";</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1">            try {</span></p>
+<p class="p2"><span class="s1">                // Fetch real-time wave heights and wind data from Open-Meteo Marine API</span></p>
+<p class="p2"><span class="s1">                const url = `https://open-meteo.com{lat}&amp;longitude=${lng}&amp;current=wave_height,wind_wave_height&amp;hourly=wave_height&amp;temperature_unit=fahrenheit&amp;wind_speed_unit=mph&amp;length_unit=inch`;</span></p>
+<p class="p2"><span class="s1">                </span></p>
+<p class="p2"><span class="s1">                // Fetch basic weather (wind &amp; temp) alongside marine data</span></p>
+<p class="p2"><span class="s1">                const weatherUrl = `https://open-meteo.com{lat}&amp;longitude=${lng}&amp;current=temperature_2m,wind_speed_10m&amp;temperature_unit=fahrenheit&amp;wind_speed_unit=mph`;</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1">                const [marineRes, weatherRes] = await Promise.all([fetch(url), fetch(weatherUrl)]);</span></p>
+<p class="p2"><span class="s1">                const marineData = await marineRes.json();</span></p>
+<p class="p2"><span class="s1">                const weatherData = await weatherRes.json();</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1">                // Extract metrics</span></p>
+<p class="p2"><span class="s1">                const waveHeightInches = marineData.current.wave_height || 0;</span></p>
+<p class="p2"><span class="s1">                const waveHeightFeet = (waveHeightInches / 12).toFixed(1);</span></p>
+<p class="p2"><span class="s1">                const windSpeed = weatherData.current.wind_speed_10m.toFixed(1);</span></p>
+<p class="p2"><span class="s1">                const waterTemp = weatherData.current.temperature_2m.toFixed(1); // Approximated via coastal air temp for simplicity</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1">                // Update UI Metrics</span></p>
+<p class="p2"><span class="s1">                document.getElementById('metric-waves').innerText = `${waveHeightFeet} ft`;</span></p>
+<p class="p2"><span class="s1">                document.getElementById('metric-wind').innerText = `${windSpeed} mph`;</span></p>
+<p class="p2"><span class="s1">                document.getElementById('metric-temp').innerText = `${waterTemp} °F`;</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1">                // Run Safety Evaluation Algorithm</span></p>
+<p class="p2"><span class="s1">                evaluateConditions(waveHeightFeet, windSpeed);</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1">            } catch (error) {</span></p>
+<p class="p2"><span class="s1">                console.error("Error fetching data:", error);</span></p>
+<p class="p2"><span class="s1">                document.getElementById('status-text').innerText = "Data Error";</span></p>
+<p class="p2"><span class="s1">                document.getElementById('advice-text').innerText = "Failed to load real-time ocean data. Please check back later.";</span></p>
+<p class="p2"><span class="s1">            }</span></p>
+<p class="p2"><span class="s1">        }</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1">        function evaluateConditions(waves, wind) {</span></p>
+<p class="p2"><span class="s1">            const banner = document.getElementById('status-banner');</span></p>
+<p class="p2"><span class="s1">            const statusText = document.getElementById('status-text');</span></p>
+<p class="p2"><span class="s1">            const adviceText = document.getElementById('advice-text');</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1">            // CRITICAL THRESHOLDS FOR SNORKELING</span></p>
+<p class="p2"><span class="s1">            // Waves &gt; 4ft = Dangerous for snorkeling (churns sand, creates undertow)</span></p>
+<p class="p2"><span class="s1">            // Waves &gt; 2.5ft = Fair, visibility reduced</span></p>
+<p class="p2"><span class="s1">            // Wind &gt; 15mph = Choppy, surface currents strong</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1">            if (waves &gt;= 4.0 || wind &gt;= 20) {</span></p>
+<p class="p2"><span class="s1">                // DANGEROUS CONDITIONS</span></p>
+<p class="p2"><span class="s1">                banner.className = "bg-red-500 text-white p-6 text-center transition-colors duration-300";</span></p>
+<p class="p2"><span class="s1">                statusText.innerText = "🔴 POOR / DANGEROUS";</span></p>
+<p class="p2"><span class="s1">                adviceText.innerText = `High surf alert! Waves are around ${waves}ft with winds at ${wind}mph. This creates strong undertows and visibility will be near zero due to churned up sand. It is highly recommended to stay out of the water today.`;</span></p>
+<p class="p2"><span class="s1">            } else if (waves &gt;= 2.5 || wind &gt;= 13) {</span></p>
+<p class="p2"><span class="s1">                // CAUTION CONDITIONS</span></p>
+<p class="p2"><span class="s1">                banner.className = "bg-amber-500 text-white p-6 text-center transition-colors duration-300";</span></p>
+<p class="p2"><span class="s1">                statusText.innerText = "🟡 FAIR / CAUTION";</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p4"><span class="s1">Use code with caution.</span></p>
+<p class="p5"><span class="s2">adviceText.innerText = </span><span class="s1">Moderate conditions. Wave heights are ${waves}ft. Snorkeling is possible, but expect a surface chop and reduced underwater visibility. Beginners should stick very close to the shore or a lifeguard tower.</span><span class="s2">;</span></p>
+<p class="p6"><span class="s1">} else {</span></p>
+<p class="p6"><span class="s1">// IDEAL CONDITIONS</span></p>
+<p class="p6"><span class="s1">banner.className = "bg-emerald-500 text-white p-6 text-center transition-colors duration-300";</span></p>
+<p class="p6"><span class="s1">statusText.innerText = "🟢 EXCELLENT CONDITIONS";</span></p>
+<p class="p5"><span class="s2">adviceText.innerText = </span><span class="s1">Perfect day for snorkeling! Calm seas (${waves}ft) and low winds mean crystal-clear underwater visibility. Enjoy the coral reefs and marine life safely!</span><span class="s2">;</span></p>
+<p class="p6"><span class="s1">}</span></p>
+<p class="p6"><span class="s1">}</span></p>
 </body>
 </html>
